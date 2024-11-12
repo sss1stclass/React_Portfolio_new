@@ -16,13 +16,13 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Vinayak Singh</h1>
+          <h1>Sohil Maurya</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Frontend Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">4 Years of Experience</p>
+          <p className="small-resume">2+ Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -31,28 +31,28 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/sohil-maurya-154b741a2/"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/sss1stclass"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B918674910143&text=Hello+Vinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me"
           target="_blank"
           rel="noreferrer"
         >
