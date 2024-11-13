@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import SohilMaurya from "../../assets/sohil.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -17,35 +17,37 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>About Me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+            Hi! I'm Sohil, a frontend developer with a focus on building responsive and user-friendly web apps. Skilled in React.js, Redux, Tailwind css, Node.js, Javascript, HTML5 and Material UI, I bring ideas to life with clean, efficient code.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+            I’ve worked on features like real-time data sync and dynamic forms, using tools like Formik and Next.js. My goal is to create websites that look great and run smoothly.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+            If you need a new site or want to improve your current one, I’d love to chat about how we can make it happen. Let’s bring your vision to life together!
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
-          </div>
-          <div className="hability">
+          </div> */}
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
@@ -56,11 +58,11 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />
@@ -90,7 +92,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={SohilMaurya} alt="Sohil Maurya" />
         </ScrollAnimation>
       </div>
     </Container>
