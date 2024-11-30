@@ -259,7 +259,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       {/* <Project></Project> */}
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </Container>
   );
 }

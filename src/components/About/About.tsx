@@ -1,16 +1,17 @@
 import { Container } from "./styles";
 import SohilMaurya from "../../assets/sohil.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReduxIcon from '../../assets/redux logo.svg'
+import FigmaIcon from '../../assets/figma-svgrepo-com.svg'
+import JiraIcon from '../../assets/jira-svgrepo-com.svg'
+import TailwindCss from '../../assets/tailwindcss-icon-svgrepo-com.svg'
 
 export function About() {
   return (
@@ -38,19 +39,19 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div> */}
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
-          </div> */}
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={reactIcon} alt="React" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+              <img src={ReduxIcon} alt="ReduxIcon" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+              <img src={TailwindCss} alt="Tailwind" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -58,11 +59,11 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+              <img src={FigmaIcon} alt="Vue" />
             </ScrollAnimation>
-          </div> */}
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />
@@ -88,10 +89,15 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={JiraIcon} alt="Jira" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
           <img src={SohilMaurya} alt="Sohil Maurya" />
         </ScrollAnimation>
       </div>

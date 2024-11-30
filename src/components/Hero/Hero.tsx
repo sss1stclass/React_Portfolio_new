@@ -45,7 +45,7 @@ export function Hero() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B918674910143&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B918674910143&text=Hello+Sohil"
           target="_blank"
           rel="noreferrer"
         >
