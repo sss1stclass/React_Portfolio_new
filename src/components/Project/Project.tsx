@@ -15,6 +15,24 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
+                <a href="https://github.com/sss1stclass/Personalised-Youtube-Clone" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                <a href="https://personalised-youtube-clone.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>Personalised Youtube Clone</h3>
+              <p>A YouTube clone built with React JS and Material UI, featuring a responsive sidebar, dynamic channel data fetching using Rapid Api Youtube V3, and conditional rendering of channel and video components. The app uses React hooks for state management and Material UI's component for layout styling. Key features include search functionality, recommended videos, and deployment on Vercel for scalability.</p>
+            </div>
+            <footer> <ul className="tech-list"> <li>React</li> <li>Rapid Api</li> <li>MaterialUI</li> <li>Vercel</li> </ul> </footer>
+          </div>
+        </ScrollAnimationWrapper>
+        <ScrollAnimationWrapper animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
                 <a href="https://github.com/sss1stclass/BookApp_Frontend_Vite-React-Typescript" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                 <a href="https://book-app-frontend-vite-react-typescript.vercel.app/" target="_blank" rel="noreferrer">
@@ -49,7 +67,7 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>React</li>
-                <li>Tailwind CSS</li>
+                <li>Material UI</li>
                 <li>Axios</li>
               </ul>
             </footer>
@@ -80,9 +98,11 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Javascript</li>
-                <li>HTML</li>
-                <li>SCSS/CSS</li>
+                <li>Tavascript</li>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Particles.js</li>
+                <li>Vercel</li>
               </ul>
             </footer>
           </div>
