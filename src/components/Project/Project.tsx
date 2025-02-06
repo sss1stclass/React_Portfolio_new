@@ -91,9 +91,9 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>GitHub Profile Finder</h3>
+              <h3>ProfileQuest</h3>
               <p>
-                Built a simple web app using HTML, CSS, and JavaScript to search and display GitHub user profiles and their information in real-time. The app fetches data dynamically based on the username, offering an efficient and interactive user experience. This project highlights my skills in front-end development and API integration.
+                Built a simple web app using React, Material UI, RapidApi to search and display GitHub, LinkedIn, Leetcode and Instagram user profiles and their information in real-time. The app fetches data dynamically based on the username, offering an efficient and interactive user experience. This project highlights my skills in front-end development and API integration.
               </p>
             </div>
             <footer>
