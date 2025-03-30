@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import SohilMaurya from "../../assets/sohil.png";
+import SohilMaurya from "../../assets/sohil2.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
